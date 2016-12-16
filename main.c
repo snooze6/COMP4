@@ -36,6 +36,10 @@ int main() {
 
     gettimeofday(&final, NULL);
 
+//    for (i = 0; i < Nmax; i++) /* Producto matricial */
+//        for (j = 0; j < Nmax; j++) /* Producto matricial */
+//            printf("Bla: %f", C[i][j]);
+
     tiempo = (final.tv_sec - inicio.tv_sec + (final.tv_usec - inicio.tv_usec) / 1.e6);
     printf("Tiempo necesario: %f\n", tiempo);
 
